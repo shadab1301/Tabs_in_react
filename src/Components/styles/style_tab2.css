@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+    height: 100%;
+    padding: 20px 20px;
+    margin: 0px auto;
+  }
+.tabs-Container{
+    width:"400px";
+    display: flex;
+    justify-content: space-between;
+}
+.tab{
+    cursor: pointer;
+    display: inline-block;  
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid grey
+}
+ .tab.active{
+    
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom:none;
+}
+.tabs-content-container{
+    width:"400px";
+    text-align: left;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;;
+    padding: 20px 20px;
+}

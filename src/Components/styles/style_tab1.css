@@ -1,0 +1,35 @@
+
+/* My CSS */
+.container{
+    width: 90%;
+    height: 100%;
+    padding: 20px 20px;
+  }
+  
+  .tab-container{
+    width:  400px;
+    border: 1px solid red !important;
+    display: flex ;
+    justify-content: space-around;
+  }
+  .tab-content{
+    width:  400px;
+    border: 1px solid red !important;
+   
+  }
+  .tab-content-for-tab{
+    display: none;
+  }
+  .tab{
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 30px ;
+    text-align: center;
+  }
+  .tab:not(:last-child){
+    border-right: 1px solid red;
+  }
+  .active{
+    background-color: grey;
+  }
+  
